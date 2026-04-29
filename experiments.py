@@ -73,7 +73,7 @@ def run_attack(params: LWEParams, seed: int) -> dict:
         "attack_elapsed":  atk.elapsed,
         "attack_attempts": atk.attempts,
         "attack_method":   atk.method,
-        "estimated_total": estimated,
+        "estimated_total": str(estimated),  # 轉字串避免 JSON/arrow OverflowError
     }
 
 

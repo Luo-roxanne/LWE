@@ -350,7 +350,7 @@ with tab1:
             st.session_state["exp1"] = results1
 
             df = pd.DataFrame(results1)
-            df["q^n"] = df["estimated"].map(lambda x: f"{x:,}")
+            df["q^n"] = df["estimated"].map(lambda x: f"{int(x):,}" if x else "─")
             df["錯誤率"] = df["error_rate"].map(lambda x: f"{x*100:.2f}%")
             df["攻擊"] = df.apply(lambda r:
                 "✓ 成功" if r["atk_success"] is True
@@ -808,7 +808,16 @@ with tab_load:
         import pandas as pd
         df = pd.DataFrame(data)
         st.subheader(f"數據：{len(df)} 筆")
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        # 將超大整數欄位轉成字串，避免 arrow OverflowError
+        # q^n 可能超過 10^40，遠超 int64 上限（約 9.2×10^18）
+        big_int_cols = ["estimated_total", "attack_attempts"]
+        df_display = df.copy()
+        for col in big_int_cols:
+            if col in df_display.columns:
+                df_display[col] = df_display[col].apply(
+                    lambda x: f"{int(x):,}" if x is not None and str(x) not in ("None", "nan") else "─"
+                )
+        st.dataframe(df_display, use_container_width=True, hide_index=True)
 
         if PLOTLY and "error_rate" in df.columns:
             st.subheader("視覺化")
