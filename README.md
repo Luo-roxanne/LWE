@@ -1,86 +1,60 @@
-# LWE 安全性分析｜旺宏科學獎
+# 格密碼 LWE 問題中雜訊分布對安全性邊界的影響
 
-格密碼 LWE 問題參數空間的安全性結構分析
+旺宏科學獎　數學組
 
-## 檔案結構
+## 研究主題
 
-```
-lwe_experiment1/
-├── lwe_core.py        # 核心模組：金鑰生成、加解密、攻擊
-├── experiment1.py     # 實驗一：維度基準線（命令列執行）
-├── app.py             # Streamlit 互動展示介面
-├── requirements.txt   # 套件需求
-└── results/           # 實驗結果（執行後自動產生）
-    ├── exp1_results.json
-    └── exp1_results.csv
-```
+比較三種雜訊分布（高斯、均勻、CBD）對 LWE 安全性地圖的影響。
 
-## 安裝
+## 檔案說明
 
+| 檔案 | 說明 |
+|---|---|
+| `lwe_core_v2.py` | 核心模組，支援三種雜訊分布的採樣、加解密、錯誤率測試 |
+| `lwe_three_dist.py` | 三個主實驗（A/B/C）的執行腳本 |
+| `app_v2.py` | Streamlit 互動展示 App |
+| `requirements.txt` | Python 套件需求 |
+
+## 執行方式
+
+### 安裝套件
 ```bash
 pip install -r requirements.txt
 ```
 
-## 執行方式
-
-### 方式一：命令列執行實驗（產生數據）
-
+### 執行實驗
 ```bash
-# 快速模式（n=2~15，每 n 測 200 次，約 2-5 分鐘）
-python experiment1.py
-
-# 完整模式（n=2~25，每 n 測 1000 次，約 30-60 分鐘）
-python experiment1.py --full
-
-# 自訂參數
-python experiment1.py --n_max 12 --trials 500
+python lwe_three_dist.py --exp A          # 實驗A：相變點比較
+python lwe_three_dist.py --exp B          # 實驗B：安全性地圖（最慢）
+python lwe_three_dist.py --exp C          # 實驗C：縮小版Kyber
+python lwe_three_dist.py --exp all        # 全部執行
+python lwe_three_dist.py --exp all --quick  # 快速模式
 ```
 
-### 方式二：Streamlit 互動介面
+結果存於 `results3/` 資料夾。
 
+### 開啟互動 App
 ```bash
-streamlit run app.py
+streamlit run app_v2.py
 ```
 
-開啟後：
-- **頁籤一**：即時加解密示範（可調整側邊欄參數）
-- **頁籤二**：實驗一互動執行（即時繪圖）
-- **頁籤三**：載入已存結果視覺化
+## 三種雜訊分布說明
 
-## 實驗參數
+| 分布 | 參數 | rᵀe 標準差 | 安全性歸約 | 採樣效率 |
+|---|---|---|---|---|
+| 均勻 U(-k,k) | k | k√(m/6) | 較弱 | 中 |
+| 高斯 DG(σ) | σ | σ√(m/2) | 最強 | 低 |
+| CBD(η) | η | √(mη/4) | 中等 | 最高 |
 
-| 參數 | 值 | 說明 |
-|------|-----|------|
-| q | 101 | 固定模數（質數，q/4 ≈ 25） |
-| k | 2 | 固定雜訊幅度 |
-| m | 2n | 公鑰行數（隨 n 自動調整） |
-| n | 2 → 30 | 掃描維度 |
-| ρ | ≈ 0.08 | 雜訊比（固定，遠低於相變點） |
+有效雜訊比：`ρ_eff = σ_r / (q/4)`
 
-## 數學符號
+安全邊界（n=8, m=16, q=17~127）：
+- 均勻：ρ_eff ≤ 0.207（最嚴格）
+- 高斯：ρ_eff ≤ 0.256
+- CBD ：ρ_eff ≤ 0.320（最寬鬆）
 
-```
-n  維度（安全性主要來源）
-q  模數（質數，控制運算範圍）
-k  雜訊幅度（均勻分布 U[-k, k]）
-m  公鑰行數（建議 m = 2n）
-s  私鑰向量 ∈ ℤq^n
-A  公開矩陣 ∈ ℤq^(m×n)
-e  雜訊向量
-b  公鑰：b = As + e (mod q)
-ρ  雜訊比 = k / (q/4)
-```
+## 參考文獻
 
-## 關於 BKZ 攻擊
-
-`lwe_core.py` 已包含 BKZ 攻擊介面，需安裝 `fpylll`：
-
-```bash
-# Linux（需 C++ 開發環境）
-pip install fpylll
-
-# macOS
-brew install fplll && pip install fpylll
-```
-
-若未安裝，程式會自動跳過 BKZ 攻擊，暴力搜尋攻擊仍可正常執行。
+- Regev, O. (2009). On lattices, learning with errors...
+- NIST FIPS 203 (2024). Module-Lattice-Based KEM Standard.
+- Bos et al. (2018). CRYSTALS-Kyber.

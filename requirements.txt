@@ -3,9 +3,3 @@ scipy>=1.10
 streamlit>=1.32
 plotly>=5.18
 pandas>=2.0
-
-# BKZ 攻擊（選用，需要 C++ 編譯環境）
-# Linux: pip install fpylll
-# macOS: brew install fplll && pip install fpylll
-# 若未安裝，暴力搜尋攻擊仍可正常運作
-# fpylll>=0.5
