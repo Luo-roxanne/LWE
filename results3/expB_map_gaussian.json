@@ -1,0 +1,962 @@
+[
+  {
+    "q": 17,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.3327561323230812,
+    "theory_pfail": 0.002654029359482342,
+    "error_rate": 0.015
+  },
+  {
+    "q": 17,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.6655122646461624,
+    "theory_pfail": 0.13294173056504724,
+    "error_rate": 0.19
+  },
+  {
+    "q": 17,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9982683969692436,
+    "theory_pfail": 0.31647178784797825,
+    "error_rate": 0.345
+  },
+  {
+    "q": 19,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.2977291710259148,
+    "theory_pfail": 0.0007829382178911192,
+    "error_rate": 0.01
+  },
+  {
+    "q": 19,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5954583420518296,
+    "theory_pfail": 0.09307828021831353,
+    "error_rate": 0.105
+  },
+  {
+    "q": 19,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.8931875130777444,
+    "theory_pfail": 0.2628903364198476,
+    "error_rate": 0.22
+  },
+  {
+    "q": 19,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1909166841036591,
+    "theory_pfail": 0.4010826134056492,
+    "error_rate": 0.38
+  },
+  {
+    "q": 23,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.2459501847605383,
+    "theory_pfail": 4.7854839743773425e-05,
+    "error_rate": 0.0
+  },
+  {
+    "q": 23,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.4919003695210766,
+    "theory_pfail": 0.04205939394353995,
+    "error_rate": 0.075
+  },
+  {
+    "q": 23,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.737850554281615,
+    "theory_pfail": 0.17532581762086596,
+    "error_rate": 0.17
+  },
+  {
+    "q": 23,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.9838007390421531,
+    "theory_pfail": 0.30940753129967324,
+    "error_rate": 0.27
+  },
+  {
+    "q": 29,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.1950639396376683,
+    "theory_pfail": 2.951401925115697e-07,
+    "error_rate": 0.0
+  },
+  {
+    "q": 29,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.3901278792753366,
+    "theory_pfail": 0.010369374205224815,
+    "error_rate": 0.01
+  },
+  {
+    "q": 29,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.5851918189130049,
+    "theory_pfail": 0.08748033392519722,
+    "error_rate": 0.055
+  },
+  {
+    "q": 29,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7802557585506732,
+    "theory_pfail": 0.19997210583576708,
+    "error_rate": 0.185
+  },
+  {
+    "q": 29,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9753196981883414,
+    "theory_pfail": 0.30521937621459216,
+    "error_rate": 0.32
+  },
+  {
+    "q": 29,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1703836378260097,
+    "theory_pfail": 0.39287193390004616,
+    "error_rate": 0.325
+  },
+  {
+    "q": 31,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.1824791693384639,
+    "theory_pfail": 4.251394408249114e-08,
+    "error_rate": 0.0
+  },
+  {
+    "q": 31,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.3649583386769278,
+    "theory_pfail": 0.0061431936047867996,
+    "error_rate": 0.0
+  },
+  {
+    "q": 31,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.5474375080153917,
+    "theory_pfail": 0.06774601384068937,
+    "error_rate": 0.08
+  },
+  {
+    "q": 31,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7299166773538556,
+    "theory_pfail": 0.17068084940668493,
+    "error_rate": 0.175
+  },
+  {
+    "q": 31,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9123958466923194,
+    "theory_pfail": 0.27307198664467414,
+    "error_rate": 0.23
+  },
+  {
+    "q": 31,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 1.0948750160307834,
+    "theory_pfail": 0.3610604602553753,
+    "error_rate": 0.315
+  },
+  {
+    "q": 37,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.15288795268898325,
+    "theory_pfail": 6.121610513034226e-11,
+    "error_rate": 0.0
+  },
+  {
+    "q": 37,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.3057759053779665,
+    "theory_pfail": 0.001074073290722385,
+    "error_rate": 0.01
+  },
+  {
+    "q": 37,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.4586638580669498,
+    "theory_pfail": 0.029239238256098966,
+    "error_rate": 0.015
+  },
+  {
+    "q": 37,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.611551810755933,
+    "theory_pfail": 0.10201039079298223,
+    "error_rate": 0.135
+  },
+  {
+    "q": 37,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.7644397634449163,
+    "theory_pfail": 0.19082326968597751,
+    "error_rate": 0.16
+  },
+  {
+    "q": 37,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.9173277161338996,
+    "theory_pfail": 0.2756589861228449,
+    "error_rate": 0.3
+  },
+  {
+    "q": 37,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0702156688228828,
+    "theory_pfail": 0.350102185066024,
+    "error_rate": 0.345
+  },
+  {
+    "q": 41,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.13797205486566783,
+    "theory_pfail": 4.234563376336225e-13,
+    "error_rate": 0.0
+  },
+  {
+    "q": 41,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.27594410973133565,
+    "theory_pfail": 0.0002901688616734061,
+    "error_rate": 0.0
+  },
+  {
+    "q": 41,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.4139161645970035,
+    "theory_pfail": 0.015694295206034617,
+    "error_rate": 0.01
+  },
+  {
+    "q": 41,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5518882194626713,
+    "theory_pfail": 0.06999220321388053,
+    "error_rate": 0.08
+  },
+  {
+    "q": 41,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.6898602743283391,
+    "theory_pfail": 0.14717877343162752,
+    "error_rate": 0.195
+  },
+  {
+    "q": 41,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.827832329194007,
+    "theory_pfail": 0.22705723087066976,
+    "error_rate": 0.255
+  },
+  {
+    "q": 41,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9658043840596746,
+    "theory_pfail": 0.3004791776338115,
+    "error_rate": 0.265
+  },
+  {
+    "q": 41,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1037764389253426,
+    "theory_pfail": 0.3649461402284999,
+    "error_rate": 0.37
+  },
+  {
+    "q": 43,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.13155474998819489,
+    "theory_pfail": 2.929488554487155e-14,
+    "error_rate": 0.0
+  },
+  {
+    "q": 43,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.26310949997638977,
+    "theory_pfail": 0.00014428851742548005,
+    "error_rate": 0.005
+  },
+  {
+    "q": 43,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.3946642499645847,
+    "theory_pfail": 0.011283333628654519,
+    "error_rate": 0.01
+  },
+  {
+    "q": 43,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5262189999527795,
+    "theory_pfail": 0.05738727275572157,
+    "error_rate": 0.07
+  },
+  {
+    "q": 43,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.6577737499409745,
+    "theory_pfail": 0.12844072404145615,
+    "error_rate": 0.155
+  },
+  {
+    "q": 43,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7893284999291694,
+    "theory_pfail": 0.20519117403509002,
+    "error_rate": 0.225
+  },
+  {
+    "q": 43,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9208832499173643,
+    "theory_pfail": 0.2775170488435569,
+    "error_rate": 0.255
+  },
+  {
+    "q": 43,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 1.052437999905559,
+    "theory_pfail": 0.3420234728401633,
+    "error_rate": 0.355
+  },
+  {
+    "q": 43,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 1.1839927498937541,
+    "theory_pfail": 0.39833433952237207,
+    "error_rate": 0.355
+  },
+  {
+    "q": 47,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.12035860105302937,
+    "theory_pfail": 9.691555645277173e-17,
+    "error_rate": 0.0
+  },
+  {
+    "q": 47,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.24071720210605874,
+    "theory_pfail": 3.263528714756127e-05,
+    "error_rate": 0.0
+  },
+  {
+    "q": 47,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.36107580315908816,
+    "theory_pfail": 0.005614213548365346,
+    "error_rate": 0.01
+  },
+  {
+    "q": 47,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.4814344042121175,
+    "theory_pfail": 0.037789915800508826,
+    "error_rate": 0.045
+  },
+  {
+    "q": 47,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.6017930052651469,
+    "theory_pfail": 0.09657275342042587,
+    "error_rate": 0.08
+  },
+  {
+    "q": 47,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7221516063181763,
+    "theory_pfail": 0.1661286859609361,
+    "error_rate": 0.15
+  },
+  {
+    "q": 47,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.8425102073712055,
+    "theory_pfail": 0.23525553265934684,
+    "error_rate": 0.24
+  },
+  {
+    "q": 47,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.962868808424235,
+    "theory_pfail": 0.2990079816577661,
+    "error_rate": 0.305
+  },
+  {
+    "q": 47,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0832274094772645,
+    "theory_pfail": 0.35592008603469416,
+    "error_rate": 0.345
+  },
+  {
+    "q": 53,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.10673309904702605,
+    "theory_pfail": 7.310869685530323e-21,
+    "error_rate": 0.0
+  },
+  {
+    "q": 53,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.2134661980940521,
+    "theory_pfail": 2.8053126041729294e-06,
+    "error_rate": 0.0
+  },
+  {
+    "q": 53,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.32019929714107814,
+    "theory_pfail": 0.0017898432786234543,
+    "error_rate": 0.005
+  },
+  {
+    "q": 53,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.4269323961881042,
+    "theory_pfail": 0.019165754033449046,
+    "error_rate": 0.025
+  },
+  {
+    "q": 53,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.5336654952351302,
+    "theory_pfail": 0.06095345055493302,
+    "error_rate": 0.045
+  },
+  {
+    "q": 53,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.6403985942821563,
+    "theory_pfail": 0.11839934639567665,
+    "error_rate": 0.135
+  },
+  {
+    "q": 53,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.7471316933291823,
+    "theory_pfail": 0.18074909791848182,
+    "error_rate": 0.155
+  },
+  {
+    "q": 53,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.8538647923762084,
+    "theory_pfail": 0.24154025475246366,
+    "error_rate": 0.22
+  },
+  {
+    "q": 53,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9605978914232345,
+    "theory_pfail": 0.29786704731508096,
+    "error_rate": 0.3
+  },
+  {
+    "q": 53,
+    "param": 5.0,
+    "param_name": "sigma",
+    "rho_eff": 1.0673309904702604,
+    "theory_pfail": 0.3488015187443222,
+    "error_rate": 0.385
+  },
+  {
+    "q": 53,
+    "param": 5.5,
+    "param_name": "sigma",
+    "rho_eff": 1.1740640895172865,
+    "theory_pfail": 0.3943571601963348,
+    "error_rate": 0.44
+  },
+  {
+    "q": 59,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.09587888558461662,
+    "theory_pfail": 1.8122170524396203e-25,
+    "error_rate": 0.0
+  },
+  {
+    "q": 59,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.19175777116923323,
+    "theory_pfail": 1.839040124749403e-07,
+    "error_rate": 0.0
+  },
+  {
+    "q": 59,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.28763665675384986,
+    "theory_pfail": 0.0005077990190448113,
+    "error_rate": 0.0
+  },
+  {
+    "q": 59,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.38351554233846646,
+    "theory_pfail": 0.009121772493137323,
+    "error_rate": 0.015
+  },
+  {
+    "q": 59,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.47939442792308307,
+    "theory_pfail": 0.03698179317299475,
+    "error_rate": 0.07
+  },
+  {
+    "q": 59,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5752733135076997,
+    "theory_pfail": 0.08215723192250222,
+    "error_rate": 0.105
+  },
+  {
+    "q": 59,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.6711521990923163,
+    "theory_pfail": 0.13623080863213047,
+    "error_rate": 0.18
+  },
+  {
+    "q": 59,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7670310846769329,
+    "theory_pfail": 0.19232629548934443,
+    "error_rate": 0.2
+  },
+  {
+    "q": 59,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 0.8629099702615496,
+    "theory_pfail": 0.24650940447254455,
+    "error_rate": 0.255
+  },
+  {
+    "q": 59,
+    "param": 5.0,
+    "param_name": "sigma",
+    "rho_eff": 0.9587888558461661,
+    "theory_pfail": 0.2969563968229345,
+    "error_rate": 0.22
+  },
+  {
+    "q": 59,
+    "param": 5.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0546677414307828,
+    "theory_pfail": 0.343044998231266,
+    "error_rate": 0.31
+  },
+  {
+    "q": 59,
+    "param": 6.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1505466270153994,
+    "theory_pfail": 0.3847639510961134,
+    "error_rate": 0.4
+  },
+  {
+    "q": 61,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.09273531556544887,
+    "theory_pfail": 4.1245334202092374e-27,
+    "error_rate": 0.0
+  },
+  {
+    "q": 61,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.18547063113089773,
+    "theory_pfail": 6.979841318562145e-08,
+    "error_rate": 0.0
+  },
+  {
+    "q": 61,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.2782059466963466,
+    "theory_pfail": 0.00032506573949292927,
+    "error_rate": 0.0
+  },
+  {
+    "q": 61,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.37094126226179547,
+    "theory_pfail": 0.007021041256065324,
+    "error_rate": 0.015
+  },
+  {
+    "q": 61,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.4636765778272443,
+    "theory_pfail": 0.031030943002100395,
+    "error_rate": 0.03
+  },
+  {
+    "q": 61,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5564118933926931,
+    "theory_pfail": 0.07229915572465015,
+    "error_rate": 0.08
+  },
+  {
+    "q": 61,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.649147208958142,
+    "theory_pfail": 0.12344275351755553,
+    "error_rate": 0.135
+  },
+  {
+    "q": 61,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7418825245235909,
+    "theory_pfail": 0.1776833742914916,
+    "error_rate": 0.23
+  },
+  {
+    "q": 61,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 0.8346178400890398,
+    "theory_pfail": 0.23085739773358438,
+    "error_rate": 0.225
+  },
+  {
+    "q": 61,
+    "param": 5.0,
+    "param_name": "sigma",
+    "rho_eff": 0.9273531556544886,
+    "theory_pfail": 0.2808830154818207,
+    "error_rate": 0.3
+  },
+  {
+    "q": 61,
+    "param": 5.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0200884712199374,
+    "theory_pfail": 0.3269345370318113,
+    "error_rate": 0.29
+  },
+  {
+    "q": 61,
+    "param": 6.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1128237867853863,
+    "theory_pfail": 0.3688578366241031,
+    "error_rate": 0.38
+  },
+  {
+    "q": 67,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.08443066044018478,
+    "theory_pfail": 2.3105283125593972e-32,
+    "error_rate": 0.0
+  },
+  {
+    "q": 67,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.16886132088036956,
+    "theory_pfail": 3.180123051662579e-09,
+    "error_rate": 0.0
+  },
+  {
+    "q": 67,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.25329198132055436,
+    "theory_pfail": 7.880257197317547e-05,
+    "error_rate": 0.0
+  },
+  {
+    "q": 67,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.33772264176073913,
+    "theory_pfail": 0.003066323352045426,
+    "error_rate": 0.0
+  },
+  {
+    "q": 67,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.4221533022009239,
+    "theory_pfail": 0.01784552847339293,
+    "error_rate": 0.025
+  },
+  {
+    "q": 67,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.5065839626411087,
+    "theory_pfail": 0.04838101172034758,
+    "error_rate": 0.04
+  },
+  {
+    "q": 67,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.5910146230812935,
+    "theory_pfail": 0.09064492264581402,
+    "error_rate": 0.07
+  },
+  {
+    "q": 67,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.6754452835214783,
+    "theory_pfail": 0.1387385745379245,
+    "error_rate": 0.1
+  },
+  {
+    "q": 67,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 0.7598759439616631,
+    "theory_pfail": 0.18817260371931643,
+    "error_rate": 0.175
+  },
+  {
+    "q": 67,
+    "param": 5.0,
+    "param_name": "sigma",
+    "rho_eff": 0.8443066044018478,
+    "theory_pfail": 0.23625323356413908,
+    "error_rate": 0.22
+  },
+  {
+    "q": 67,
+    "param": 5.5,
+    "param_name": "sigma",
+    "rho_eff": 0.9287372648420327,
+    "theory_pfail": 0.2816005569992003,
+    "error_rate": 0.285
+  },
+  {
+    "q": 67,
+    "param": 6.0,
+    "param_name": "sigma",
+    "rho_eff": 1.0131679252822174,
+    "theory_pfail": 0.3236410623044689,
+    "error_rate": 0.32
+  },
+  {
+    "q": 67,
+    "param": 6.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0975985857224022,
+    "theory_pfail": 0.3622532808679385,
+    "error_rate": 0.345
+  },
+  {
+    "q": 67,
+    "param": 7.0,
+    "param_name": "sigma",
+    "rho_eff": 1.182029246162587,
+    "theory_pfail": 0.39755120677975053,
+    "error_rate": 0.37
+  },
+  {
+    "q": 71,
+    "param": 0.5,
+    "param_name": "sigma",
+    "rho_eff": 0.07967400351397719,
+    "theory_pfail": 3.918013810172089e-36,
+    "error_rate": 0.0
+  },
+  {
+    "q": 71,
+    "param": 1.0,
+    "param_name": "sigma",
+    "rho_eff": 0.15934800702795437,
+    "theory_pfail": 3.4834969923326437e-10,
+    "error_rate": 0.0
+  },
+  {
+    "q": 71,
+    "param": 1.5,
+    "param_name": "sigma",
+    "rho_eff": 0.2390220105419316,
+    "theory_pfail": 2.8678345254485122e-05,
+    "error_rate": 0.005
+  },
+  {
+    "q": 71,
+    "param": 2.0,
+    "param_name": "sigma",
+    "rho_eff": 0.31869601405590875,
+    "theory_pfail": 0.0017022891285944993,
+    "error_rate": 0.0
+  },
+  {
+    "q": 71,
+    "param": 2.5,
+    "param_name": "sigma",
+    "rho_eff": 0.39837001756988594,
+    "theory_pfail": 0.012065286549872043,
+    "error_rate": 0.02
+  },
+  {
+    "q": 71,
+    "param": 3.0,
+    "param_name": "sigma",
+    "rho_eff": 0.4780440210838632,
+    "theory_pfail": 0.03645125942850064,
+    "error_rate": 0.03
+  },
+  {
+    "q": 71,
+    "param": 3.5,
+    "param_name": "sigma",
+    "rho_eff": 0.5577180245978403,
+    "theory_pfail": 0.07296960358855711,
+    "error_rate": 0.07
+  },
+  {
+    "q": 71,
+    "param": 4.0,
+    "param_name": "sigma",
+    "rho_eff": 0.6373920281118175,
+    "theory_pfail": 0.11667283343520607,
+    "error_rate": 0.125
+  },
+  {
+    "q": 71,
+    "param": 4.5,
+    "param_name": "sigma",
+    "rho_eff": 0.7170660316257947,
+    "theory_pfail": 0.16314503181385764,
+    "error_rate": 0.19
+  },
+  {
+    "q": 71,
+    "param": 5.0,
+    "param_name": "sigma",
+    "rho_eff": 0.7967400351397719,
+    "theory_pfail": 0.20943718414575918,
+    "error_rate": 0.23
+  },
+  {
+    "q": 71,
+    "param": 5.5,
+    "param_name": "sigma",
+    "rho_eff": 0.8764140386537491,
+    "theory_pfail": 0.25386442369749795,
+    "error_rate": 0.215
+  },
+  {
+    "q": 71,
+    "param": 6.0,
+    "param_name": "sigma",
+    "rho_eff": 0.9560880421677264,
+    "theory_pfail": 0.2955939153464997,
+    "error_rate": 0.305
+  },
+  {
+    "q": 71,
+    "param": 6.5,
+    "param_name": "sigma",
+    "rho_eff": 1.0357620456817036,
+    "theory_pfail": 0.33430809314240795,
+    "error_rate": 0.335
+  },
+  {
+    "q": 71,
+    "param": 7.0,
+    "param_name": "sigma",
+    "rho_eff": 1.1154360491956805,
+    "theory_pfail": 0.36998023724933515,
+    "error_rate": 0.375
+  },
+  {
+    "q": 71,
+    "param": 7.5,
+    "param_name": "sigma",
+    "rho_eff": 1.1951100527096579,
+    "theory_pfail": 0.4027370295053829,
+    "error_rate": 0.32
+  }
+]
